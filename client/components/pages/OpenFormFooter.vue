@@ -16,47 +16,10 @@
             alt="notion tools logo"
             class="w-10 h-10"
           >
-          <span class="ml-2 text-xl text-black dark:text-white"> OpnForm </span>
+          <span class="ml-2 text-xl text-black dark:text-white"> INDIAai Forms </span>
         </router-link>
       </div>
-      <div class="flex justify-center mt-5 md:mt-0">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-4 gap-y-2">
-          <router-link
-            :to="{ name: 'privacy-policy' }"
-            class="text-gray-600 dark:text-gray-400 transition-colors duration-300 hover:text-nt-blue"
-          >
-            Privacy Policy
-          </router-link>
 
-          <router-link
-            :to="{ name: 'terms-conditions' }"
-            class="text-gray-600 dark:text-gray-400 transition-colors duration-300 hover:text-nt-blue"
-          >
-            Terms & Conditions
-          </router-link>
-          <a
-            :href="opnformConfig.links.feature_requests"
-            target="_blank"
-            class="text-gray-600 dark:text-gray-400 transition-colors duration-300 hover:text-nt-blue"
-          >
-            Feature Requests
-          </a>
-          <a
-            :href="opnformConfig.links.roadmap"
-            target="_blank"
-            class="text-gray-600 dark:text-gray-400 transition-colors duration-300 hover:text-nt-blue"
-          >
-            Roadmap
-          </a>
-          <a
-            :href="opnformConfig.links.discord"
-            target="_blank"
-            class="text-gray-600 dark:text-gray-400 transition-colors duration-300 hover:text-nt-blue"
-          >
-            Discord
-          </a>
-        </div>
-      </div>
     </div>
   </div>
 </template>
