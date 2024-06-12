@@ -5,6 +5,6 @@ module.exports = {
     instances : 'max',
     exec_mode : 'cluster',
     watch     : false,
-    port      : 3100
+    port      : '3100'
   }]
 }
