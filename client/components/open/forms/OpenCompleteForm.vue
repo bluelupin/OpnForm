@@ -130,18 +130,18 @@
             </open-form-button>
           </template>
         </open-form>
-        <p
-          v-if="!form.no_branding"
-          class="text-center w-full mt-2"
-        >
-          <a
-            href="https://opnform.com?utm_source=form&utm_content=powered_by"
-            class="text-gray-400 hover:text-gray-500 dark:text-gray-600 dark:hover:text-gray-500 cursor-pointer hover:underline text-xs"
-            target="_blank"
-          >
-            Powered by <span class="font-semibold">OpnForm</span>
-          </a>
-        </p>
+<!--        <p-->
+<!--          v-if="!form.no_branding"-->
+<!--          class="text-center w-full mt-2"-->
+<!--        >-->
+<!--          <a-->
+<!--            href="https://opnform.com?utm_source=form&utm_content=powered_by"-->
+<!--            class="text-gray-400 hover:text-gray-500 dark:text-gray-600 dark:hover:text-gray-500 cursor-pointer hover:underline text-xs"-->
+<!--            target="_blank"-->
+<!--          >-->
+<!--            Powered by <span class="font-semibold">OpnForm</span>-->
+<!--          </a>-->
+<!--        </p>-->
       </div>
       <div
         v-else
