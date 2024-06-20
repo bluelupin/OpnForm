@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Content;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\Forms\PublicFormController;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
 
 class FileUploadController extends Controller
@@ -19,7 +20,7 @@ class FileUploadController extends Controller
         $request->validate(['file' => 'required|file']);
         $uuid = (string) Str::uuid();
         $path = $request->file('file')->storeAs(PublicFormController::TMP_FILE_UPLOAD_PATH, $uuid);
-
+        Log::info("Uploaded file path: $path");
         return response()->json([
             'uuid' => $uuid,
             'key' => $path,

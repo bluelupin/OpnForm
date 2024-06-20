@@ -23,6 +23,10 @@ class UploadAssetRequest extends FormRequest
             'bmp',
             'gif',
             'svg',
+            'pdf',
+            'txt',
+            'docx',
+            'xlsx'
         ];
         if ($this->offsetExists('type') && $this->get('type') === 'files') {
             $fileTypes = [];
