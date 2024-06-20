@@ -37,6 +37,8 @@ use Illuminate\Support\Facades\Storage;
 |
 */
 
+Route::get('/check-env', [\App\Http\Controllers\EnvironmentController::class, 'check']);
+
 Route::group(['middleware' => 'auth:api'], function () {
     Route::post('logout', [LoginController::class, 'logout']);
 
