@@ -16,7 +16,7 @@
             alt="notion tools logo"
             class="w-10 h-10"
           >
-          <span class="ml-2 text-xl text-black dark:text-white"> INDIAai Forms </span>
+          <span class="ml-2 text-xl text-black dark:text-white"> IndiaAI Forms </span>
         </router-link>
       </div>
 

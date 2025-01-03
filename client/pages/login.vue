@@ -16,7 +16,7 @@
         </div>
         <div class="w-full md:w-1/2 md:p-6 mt-8 md:mt-0">
           <h1 class="font-bold">
-            INDIAai Forms
+            IndiaAI Forms
           </h1>
 
 
